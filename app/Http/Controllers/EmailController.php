@@ -17,8 +17,8 @@ class EmailController extends Controller{
             'port'          => 993,
             'encryption'    => 'ssl',
             'validate_cert' => true,
-            'username'      => 'test10imap@gmail.com',
-            'password'      => 'jfjpnrofrajwjpfk',
+            'username'      => 'root@example.com',
+            'password'      => '',
             'protocol'      => 'imap'
         ]);
         $client->connect();
